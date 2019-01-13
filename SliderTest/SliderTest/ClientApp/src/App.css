@@ -1,0 +1,134 @@
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    
+}
+*{
+    outline:none;
+}
+.App {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Link{
+    color:#ffffff;
+    font-size:14px;
+    font-weight:300;
+    line-height:24px;
+    padding-right:33px;
+    border-right:1px dotted #fff;
+}
+.Link:active{
+    color:pink;
+}
+.Link:hover{
+    color:#8d8d8d;
+    text-decoration:none;
+}
+
+.Link:last-child{
+    border-right:none;
+}
+
+ul.List{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0;
+    height:49px;
+}
+
+.HeaderWrapper{
+    width:100%;
+    height:49px;
+    background-color:#242424;
+    opacity:0.8;
+}
+
+.MenuWrapper{
+    height:89px;
+}
+
+.Repair{
+    color:#464646;
+    font-size:18px;
+    font-weight:300;
+    line-height:22px;
+}
+
+.WorkTime {
+    color: #2a2a2a;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.WorkTime > span {
+    display: block;
+    color: #464646;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.Calls {
+    color: #2a2a2a;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.Calls > span {
+    display: block;
+    color: #464646;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.CallButton{
+    width:176px;
+    height:48px;
+    background-color: #3fc7db;
+    border-radius:30px;
+    color:#ffffff;
+    font-size:14px;
+    font-weight:400;
+}
+
+.MainWrapper {
+    height: 600px;
+    padding-top: 130px;
+    background: url('../src/components/img/bg.jpg') no-repeat;
+    background-size: cover;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.MainRepair{
+    color:#fff;
+    font-weight:700;
+    line-height:50px;
+    font-size:40px;
+}
+.MainRepair > span {
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.LightText{
+    color:#fff;
+    font-size:18px;
+    font-weight:300;
+    line-height:28px;
+    margin-top:54px;
+}
+
+.MainCallButton {
+    width: 247px;
+    height: 67px;
+    background-color: #ffa14b;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:32px;
+}
