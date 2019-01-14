@@ -1,9 +1,9 @@
 ﻿import React from 'react';
 
-import Slide_1 from '../../src/components/img/slider/slide_2.jpg';
-import Slide_2 from '../../src/components/img/slider/slide_1.jpg';
-import Slide_3 from '../../src/components/img/slider/slide_2.jpg';
-import Slide_4 from '../../src/components/img/slider/slide_1.jpg';
+import Slide_1 from '../../src/components/img/slider/slide_1.jpg';
+import Slide_2 from '../../src/components/img/slider/slide_2.jpg';
+import Slide_3 from '../../src/components/img/slider/slide_3.png';
+import Slide_4 from '../../src/components/img/slider/slide_4.png';
 
 class Slider extends React.Component {
     constructor(props) {
