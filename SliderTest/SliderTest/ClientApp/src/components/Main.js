@@ -1,6 +1,7 @@
 ﻿import React, { Component } from 'react';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
+import Slider from './Slider'
 
 export class Main extends Component {
 
@@ -22,6 +23,7 @@ export class Main extends Component {
                   </button>
               </Col>
               <Col lg={6} lgoffset={1}>
+                  <Slider/>
               </Col>
           </Row>
     );

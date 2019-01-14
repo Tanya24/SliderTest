@@ -7,6 +7,7 @@ export class Header extends Component {
 
     render() {
         return (
+            <React.Fragment>
             <Row>
                 <Col lg={12}>
                     <nav>
@@ -21,7 +22,8 @@ export class Header extends Component {
                         </ul>
                     </nav>
                 </Col>
-            </Row>
+                </Row>
+                </React.Fragment>
         );
     }
 }
